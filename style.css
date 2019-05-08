@@ -1,0 +1,127 @@
+/*LAYOUT*/
+body{
+	background-image: linear-gradient(#ffd200, #00eaff);
+}
+#container{
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header{
+	width: 850px;
+	height:150px;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+#main{
+	background-color: white;
+	width:850px;
+	height: auto;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#footer{
+	background-color: black;
+	width: 850;
+	height: 100;
+	border-radius: 10px;
+}
+img{
+	border-radius: 10px;
+}
+h1, h3{
+	font-family: Segoe print;
+}
+.content{
+	padding: 5 5 5 5;
+	text-indent: 50px;
+	font-size: 18;
+	font-weight: bold;
+	font-family: Segoe print;
+	letter-spacing: 2;  
+}
+.headers{
+	font-family: Segoe print;
+	font-weight: bold;
+	text-align: center;
+	font-size: 24;
+}
+.title{
+
+	text-align: center;
+	padding-top: 10;
+}
+.HL{
+	text-align: left;
+	float: left;
+	padding-left: 50px;
+}
+.HR{
+	text-align: right;
+	float: right;
+	padding-right: 50px;
+}
+.FL{
+	text-align: left;
+	float: left;
+	padding-left: 50px;
+}
+.FR{
+	text-align: right;
+	float: right;
+	padding-right: 50px;
+}
+/*HYPERLINKS*/
+a:link, a:active, a:visited{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: grey;
+	text-decoration: none;
+}
+/*INDEX CSS PROPERTIES*/
+.top{
+	width: 840;
+	padding:5 5 0 5;
+}
+.leftI{	
+  width: 48%;
+  padding-left: 5;
+}
+.rightI{
+	width: 48%;
+	padding-right: 5;
+	float: right;
+}
+/*ATV CSS PROPERTIES*/
+.topR{
+	width: 420;
+	padding:5 5 0 5;
+	float: right;
+	
+}
+.TopI{	
+  width: 840 ;
+	padding:5 5 0 5;
+  
+}
+.BotI{
+	width: 840 ;
+	padding:5 5 5 5;
+}
+/*SWD CSS PROPERTIES*/
+.topR{
+	width: 420 ;
+	padding:5 5 0 5;
+	float: right;
+	
+}
+.TopI{	
+	width: 840 ;
+	padding:5 5 5 5;
+  
+}
